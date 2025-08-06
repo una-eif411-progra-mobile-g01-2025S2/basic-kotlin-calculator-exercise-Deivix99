@@ -12,6 +12,9 @@ class CalculatorTest {
         calculator = Calculator()
     }
 
+
+
+
     // Pruebas de suma
     @Test
     fun `suma de dos numeros positivos`() {
@@ -28,6 +31,9 @@ class CalculatorTest {
         assertEquals(5.0, calculator.add(5.0, 0.0))
     }
 
+
+
+
     // Pruebas de resta
     @Test
     fun `resta de numeros positivos`() {
@@ -38,6 +44,9 @@ class CalculatorTest {
     fun `resta que da negativo`() {
         assertEquals(-2.0, calculator.subtract(3.0, 5.0))
     }
+
+
+
 
     // Pruebas de multiplicación
     @Test
@@ -54,6 +63,9 @@ class CalculatorTest {
     fun `multiplicacion de negativos`() {
         assertEquals(6.0, calculator.multiply(-2.0, -3.0))
     }
+
+
+
 
     // Pruebas de división
     @Test
